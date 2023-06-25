@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="author" href="https://henghuiding.github.io/PADing">
+  <title>Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation</title>
+  <meta name="description" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation">
+  <meta name="keywords" content="PADing; Referring Image Segmentation; Generalized Referring Expression Segmentation; Generalized Referring Expression Comprehension; PADing Dataset; CVPR 2023; ; Henghui Ding; Nanyang Technological University; Computer Vision">
+  
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation">
+  <meta property="og:title" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation"/>
+  <meta property="og:description" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation"/>
+  <meta property="og:url" content="https://henghuiding.github.io/PADing"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation">
+  <meta name="twitter:description" content="Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="PADing; Referring Image Segmentation; Generalized Referring Expression Segmentation; Generalized Referring Expression Comprehension; PADing Dataset; CVPR 2023; ; Henghui Ding; Nanyang Technological University; Computer Vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  
+  <link rel="icon" type="image/x-icon" href="static/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <meta name="google-site-verification" content="RHqlM-yRssUYgbykhtd0uguPnqkhTvwJw-aLE04B4KQ" />
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h2 class="title is-2 publication-title">Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation</h2>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://heshuting555.github.io/">Shuting He</a><sup>1</sup>,&nbsp;</span>
+                <span class="author-block">
+                <a href="https://henghuiding.github.io/" target="_blank">Henghui Ding</a><sup>2 </sup><sup><object id="object" data="static/images/envelope.svg" width="16" height="16" type="image/svg+xml"></object> </sup>,&nbsp;</span>
+                <span class="author-block">
+                  <a href="">Wei Jiang</a><sup>1</sup>,&nbsp;</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>Zhejiang University&nbsp;&nbsp;&nbsp;&nbsp;
+                      <sup>2</sup>Nanyang Technological University&nbsp;&nbsp;&nbsp;&nbsp;
+                  </div>
+
+                   <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                  <object id="object" data="static/images/envelope.svg" width="20" height="20" type="image/svg+xml" style="position:relative;top:3px;"></object> Project Leader & Corresponding Author
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+<!--                       <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span> -->
+                      <!-- </a> -->
+                    <!-- </span> -->
+                     <span class="link-block">
+                      <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/He_Primitive_Generation_and_Semantic-Related_Alignment_for_Universal_Zero-Shot_Segmentation_CVPR_2023_paper.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>PDF</span>
+                    </a>
+                  </span>
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/heshuting555/PADing" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2306.11087" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Youtube link -->
+                  <span class="link-block">
+                    <a href="https://www.youtube.com/watch?v=yZp-i7ZgU_M" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>YouTube</span>
+                  </a>
+                </span>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <center><img src="static/DemoImages/teaser2.png" border="0" width="90%"></center>
+      <!-- <h2 class="subtitle has-text-centered"> -->
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 1. Zero-shot image segmentation aims to transfer the knowledge learned from seen classes to unseen ones (<i>i.e.</i>, never shown up in training) with the help of semantic knowledge. We study universal zero-shot segmentation and propose <b>P</b>rimitive generation with collaborative relationship <b>A</b>lignment and feature <b>D</b>isentanglement learn<b>ing</b>
+(<b>PADing</b>) as a unified framework for zero-shot panoptic segmentation, zero-shot instance segmentation, and zero-shot semantic segmentation.</p></div><br> 
+      <!-- </h2> -->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p style="text-align:justify; text-justify:inter-ideograph;">
+      We study universal zero-shot segmentation in this work to achieve panoptic, instance, and semantic segmentation for novel categories without any training samples. Such zero-shot segmentation ability relies on inter-class relationships in semantic space to transfer the visual knowledge learned from seen categories to unseen ones. Thus, it is desired to well bridge semantic-visual spaces and apply the semantic relationships to visual feature learning. We introduce a generative model to synthesize features for unseen categories, which links semantic and visual spaces as well as address the issue of lack of unseen training data. Furthermore, to mitigate the domain gap between semantic and visual spaces, firstly, we enhance the vanilla generator with learned primitives, each of which contains fine-grained attributes related to categories, and synthesize unseen features by selectively assembling these primitives. Secondly, we propose to disentangle the visual feature into the semantic-related part and the semantic-unrelated part that contains useful visual classification clues but is less relevant to semantic representation. The inter-class relationships of semantic-related visual features are then required to be aligned with those in semantic space, thereby transferring semantic knowledge to visual feature learning. The proposed approach achieves impressively state-of-the-art performance on <b><font color="#E67E22">zero-shot panoptic segmentation, zero-shot instance segmentation, and zero-shot semantic segmentation</font></b>.
+    </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+    </div>
+    <section class="section" id="Visualization">
+    <div class="container is-max-desktop content">
+      <h2 class="title">PADing Framework</h2>
+     <center><img src="static/DemoImages/Framework.png" border="0" width="100%"></center><br>
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 2. Overview of our approach <b>PADing</b> for universal zero-shot image segmentation. We first obtain class-agnostic masks and their corresponding global representations, named class embeddings, from our backbone. A primitive generator is trained to produce synthetic features (i.e., fake class embeddings). The classifier, which takes class embeddings as input, is trained with both the real class embeddings from image and synthetic class embeddings by the generator. During the training of the generator, the proposed feature disentanglement and relationship alignment are employed to constrain the synthesized features.</p></div><br> 
+
+      <center><img src="static/DemoImages/PrimitiveGenerator.png" border="0" width="46%"></center><br>
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 3. <b>Primitive Cross-Modal Generator</b>. We use lots of learned primitives to represent fine-grained attributes. The generator synthesizes visual features via assembling these primitives according to input semantic embedding.<p></div><br> 
+
+      <center><img src="static/DemoImages/Alignment.png" border="0" width="56%"></center><br>
+        <div align="center"><p style="text-align:justify; text-justify:inter-ideograph;width:100%">Figure 4. <b>Relationship alignment</b>. (a) The conventional relationship alignment. (b) Our proposed two-step relationship alignment. Considering the domain gap, we introduce a semantic-related visual space, where features are disentangled from visual space and have more direct relevance with semantic space. We have the relationship in semantic-related visual space be aligned with semantic space. u<sub>i</sub>/s<sub>j</sub> refers to unseen/seen category. Taking u<sub>1</sub> dog as an example, we aim to transfer its similarities with <i>{cat, elephant, horse, zebra}</i> from semantic to visual space.<p></div>
+    </div>
+</section>
+
+
+
+<section class="section" id="Experiments">
+  <div class="container is-max-desktop content">
+  <h2 class="title">Experiments</h2>
+    <!-- <center> -->
+     We benchmark the state-of-the-art methods on zero-shot panoptic segmentation (ZSP), zero-shot semantic segmentaion (ZSS), zero-shot instance segmentation (ZSI), and zero-shot detection (ZSD).<br><br>
+
+     <b><font color="#E67E22">Zero-Shot Panoptic Segmentaiton (ZSP) Task</font>:</b> Because of the high similarities between semantic segmentation and panoptic segmentation, we develop the ZSP datasets by following the previous ZSS works. In order to avoid any information leakage, SPNet selects 15 classes in COCO stuff that do not appear in ImageNet as unseen classes. In COCO panoptic dataset, we find 14 classes overlapped with the 15 ones selected by SPNet and set them as unseen classes, i.e., <b><i><font color="blue">{cow, giraffe, suitcase, frisbee, skateboard, carrot, scissors, cardboard, sky-other-merged, grass-merged, playingfield, river, road, tree-merged}</font></i></b>, while the remaining 119 classes are set as seen classes. To guarantee no information leakage in the training set, we discard the training images that contain even one pixel of any unseen classes. Thus the model is trained by samples of seen classes only with 45617 training images. We use all 5k validation images to evaluate the performance of ZSP. Panoptic and semantic segmentation tasks are evaluated on the union of thing and stuff classes while instance segmentation is only evaluated on the thing classes.<br><br>
+
+     <center><caption><b>TABLE 1. Zero-shot panoptic segmentation ablation study results on MSCOCO. G, P, A, D denote GMMN generator, primitive generator,
+disentanglement, and alignment, respectively.</b></caption></center>
+     <center><img src="static/DemoImages/ZSP_results.png" border="0" width="100%"></center><br>
+
+     <center><caption><b>TABLE 2. Comparison with other ZSS methods on COCO-Stuff.</b></caption></center>
+     <center><img src="static/DemoImages/ZSS_results.png" border="0" width="60%"></center><br>
+
+     <center><caption><b>TABLE 3. Results on GZSI using word2vec embedding.</b></caption></center>
+     <center><img src="static/DemoImages/GZSI_results.png" border="0" width="60%"></center><br>
+
+     <center><caption><b>TABLE 4. Results on GZSD using word2vec embedding.</b></caption></center>
+     <center><img src="static/DemoImages/GZSD_results.png" border="0" width="60%"></center>
+
+    <!-- </center> -->
+    </div>
+</section>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      Please consider to cite PADing if it helps your research.
+      <pre><code>@inproceedings{PADing,
+  title={Primitive Generation and Semantic-related Alignment for Universal Zero-Shot Segmentation},
+  author={He, Shuting and Ding, Henghui and Jiang, Wei},
+  booktitle={CVPR},
+  year={2023}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">CVPR Presentation</h2> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe  src="https://www.youtube.com/embed/yZp-i7ZgU_M?rel=0&amp;showinfo=0"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="License">
+  <div class="container is-max-desktop content">
+  <h2 class="title">License</h2>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"  target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></br>
+PADing is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 License</a>.
+  <!-- </center> -->
+    </div>
+</section>
+
+
+<a href="https://clustrmaps.com/site/1bus8" title="Visit tracker" target="_blank"><img src="//www.clustrmaps.com/map_v2.png?d=YQ5tFfk7V4TNZxRB_HeSCongxjo4aldnub7MsI6RApk&cl=ffffff" height="1" width="1"/ style="display:block;margin-top:5px;margin-bottom:0px;margin-left:auto;text-align:right"></a>
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+
+            <center><font size=2>© Henghui Ding | Last updated: 24/5/2023</font></center>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
